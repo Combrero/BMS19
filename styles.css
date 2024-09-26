@@ -1,0 +1,76 @@
+body{
+    background-color: #F7FFE6;
+    margin: 0;
+    text-align: center;
+    padding: 64px;
+    }
+
+h1{
+    margin-top: 10px;
+    font-size: 2.5em;
+    line-height: 1.2;
+    }
+            
+.kotak{
+    width: 1000px;
+    height: 60px;
+    background-color: rgba(235, 255, 194, 0.01); 
+    box-shadow: 0 0 70px 15px rgba(32, 44, 110, 0.2); 
+    border-radius: 50px;
+    margin-bottom: 100px;
+    padding: 5px;
+    position: sticky;
+    align-items: center;
+    }
+
+.kotak a{
+    margin: 15px;
+    color: #202C6E;
+    font-weight: bold;
+    font-size: 22.22px;
+    align-items: center;
+    }
+    
+.montserratt{
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+
+a:link {color: #202C6E; text-decoration: none}
+a:hover {background-color: #a4abd3; font-style: italic;}
+a:active {font-size: 23px; font-weight: bolder;}
+a:visited {color: #ffe038;}
+
+#tf1{
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: #FF6C63;
+    margin: 10px 0 0 0;
+}
+
+#bms{
+    font-size: 100px;
+    line-break: 120%;
+    color: #202C6E;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#mtt{
+    font-size: 50px;
+    color: #FF6C63;
+    margin: 0;
+}
+
+.navy{
+    color: #202C6E;
+}
+
+.ball{
+    border-radius: 1000px;
+    background: radial-gradient(87.61% 141.42% at 0% 0%, rgba(247, 255, 230, 0.40) 0%, #EBFFC2 66.1%, #1B3CEB 100%);
+    width: 1000px;
+    height: 1000px;
+    flex-shrink: 0;
+}
